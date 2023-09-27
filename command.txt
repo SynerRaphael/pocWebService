@@ -1,3 +1,5 @@
 docker-compose up : lance docker compose
 docker exec -it pocwebservice-app-1 bash : Permet d'accéder à la commande de la machine virtuel
 docker ps : liste les docker en cours d'exécution
+
+flask --app app run --debug : run le webservice en mode debug (relance le serveur quand une modification a été faite)
